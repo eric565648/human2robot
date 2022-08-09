@@ -1,0 +1,3 @@
+dev_ws/build/*
+dev_ws/devel/*
+dev_ws/.catkin_workspace
