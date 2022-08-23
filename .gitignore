@@ -1,3 +1,5 @@
 dev_ws/build/*
 dev_ws/devel/*
 dev_ws/.catkin_workspace
+dev_ws/src/Azure_Kinect_ROS_Driver/*
+bags/*
