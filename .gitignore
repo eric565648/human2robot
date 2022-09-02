@@ -1,5 +1,10 @@
 dev_ws/build/*
 dev_ws/devel/*
+dev_ws/build_isolated/*
+dev_ws/devel_isolated/*
 dev_ws/.catkin_workspace
 dev_ws/src/Azure_Kinect_ROS_Driver/*
+dev_ws/src/Azure_Kinect_ROS_Driver
+dev_ws/src/apriltags/apriltag
+dev_ws/src/apriltags/apriltag_ros
 bags/*

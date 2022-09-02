@@ -1,0 +1,11 @@
+<launch>
+    <arg name="node_namespace" default="floor_frame" />
+    <arg name="camera_name" default="/rgb" />
+    <arg name="image_topic" default="image_raw" />
+    
+    <include file="$(find apriltag_ros)/launch/continuous_detection.launch">
+        <arg name="node_namespace" value="$(arg node_namespace)" />
+        <arg name="camera_name" value="$(arg camera_name)" />
+        <arg name="image_topic" value="$(arg image_topic)" />
+    </include>
+</launch>
