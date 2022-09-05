@@ -4,8 +4,10 @@
     <arg name="image_topic" default="image_raw" />
     
     <include file="$(find apriltag_ros)/launch/continuous_detection.launch">
-        <arg name="node_namespace" value="$(arg node_namespace)" />
+        <arg name="node_namespace" value="apriltag_detection_node" />
         <arg name="camera_name" value="$(arg camera_name)" />
         <arg name="image_topic" value="$(arg image_topic)" />
     </include>
+
+    <node pkg="frame_calibration" type="floor_frame.py" name="$(arg node_namespace)" output="screen"></node>
 </launch>
