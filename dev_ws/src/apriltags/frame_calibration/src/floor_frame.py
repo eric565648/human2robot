@@ -1,6 +1,5 @@
 #! /usr/bin/env python3
 
-from multiprocessing import dummy
 import rospy
 import numpy as np
 import tf2_ros

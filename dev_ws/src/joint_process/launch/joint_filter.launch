@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="joint_process" type="joint_filter.py" name="joint_filter" output="screen"></node>
+</launch>
